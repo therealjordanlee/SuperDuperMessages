@@ -5,6 +5,7 @@
 
 # Cake
 tools/
+dist/
 
 # Rider
 *.idea
