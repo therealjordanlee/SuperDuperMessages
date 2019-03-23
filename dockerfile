@@ -3,6 +3,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS builder
 WORKDIR /sln
 
 COPY . .
+RUN dotnet clean
 RUN dotnet restore
 RUN dotnet publish -c release -o /dist
 

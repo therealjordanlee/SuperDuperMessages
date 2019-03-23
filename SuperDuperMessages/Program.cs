@@ -22,7 +22,7 @@ namespace SuperDuperMessages
                 .ConfigureAppConfiguration((hostingContext, config) =>
                     {
                         config.SetBasePath(Directory.GetCurrentDirectory());
-                        config.AddJsonFile("appsettings.json");
+                        config.AddJsonFile("appsettings.json", optional:true);
                         config.AddEnvironmentVariables();
                     })
                 .UseStartup<Startup>();

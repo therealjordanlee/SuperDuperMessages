@@ -1,0 +1,9 @@
+.dockerignore
+dockerfile
+.git
+.gitignore
+.idea
+SuperDuperMessages/obj
+SuperDuperMessages/bin
+SuperDuperMessages/appsettings*
+SuperDuperMessages/Properties
